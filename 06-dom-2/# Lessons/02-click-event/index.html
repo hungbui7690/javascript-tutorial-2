@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .red {
+        background-color: crimson;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+      }
+      .blue {
+        background-color: skyblue;
+        color: white;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+      }
+      .btn {
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+        border: none;
+        background: none;
+        color: white;
+        background-color: palevioletred;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Events in JS</h2>
+    <button class="btn">Click Me</button>
+
+    <!-- * đây là cách cũ >>> ko nên dùng cách này  -->
+    <p onclick="this.classList.add('red')">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+      ipsum!
+    </p>
+    <!-- script -->
+    <script src="./app.js"></script>
+  </body>
+</html>

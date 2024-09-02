@@ -1,0 +1,6 @@
+[
+  { "name": "john", "id": 1, "friends": ["Peter", "Mary"] },
+  { "name": "Peter", "id": 2 },
+  { "name": "Jonas", "id": 3 },
+  { "name": "Mark", "id": 4 }
+]
